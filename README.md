@@ -16,7 +16,7 @@ Here we will expain the main usage of the resource.
 
 *Jobs*
 
-To add more jobs, go to configs/config.lua and you can add as much jobs as you want
+To add more jobs, go to `configs/config.lua` and you can add as much jobs as you want
 
 ```lua
 Config.AllowedJobs = {
@@ -25,4 +25,17 @@ Config.AllowedJobs = {
     {job = 'mechanic', label = 'LSC'},
 }
 ```
+
+*Commands*
+
+By default, the resource uses the alert UI, but if you want to use commands instead, go to `configs/config.lua` and set `Config.useCommands` as true, if you want to add more commands just do the next steps:
+
+```lua
+Config.Commands = {
+    ['entorno'] = { -- name of the command
+        target = 'police', -- the job you want to be alerted when users use this command
+        deftitle = '911 Alert', -- the title that the alert will have
+        sound = true -- do you want sound when getting the alert?
+    },
+}```
 
