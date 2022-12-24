@@ -1,7 +1,7 @@
 # Dispatch
 Dispatch System made by Codesk for ESX and QB 
 
-#Installation
+# Installation
 
 - Download the resource (Make sure to download the one for your framework, either ESX or QBCore)
 - Add the resource to your resources folder
