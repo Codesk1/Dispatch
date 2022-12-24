@@ -26,7 +26,7 @@ Config.AllowedJobs = {
 }
 ```
 
-*Commands*
+*Alert Commands*
 
 By default, the resource uses the alert UI, but if you want to use commands instead, go to `configs/config.lua` and set `Config.useCommands` as true, if you want to add more commands just do the next steps:
 
@@ -38,5 +38,18 @@ Config.Commands = {
         sound = true -- do you want sound when getting the alert?
     },
 }
+```
+*Other Commands*
+
+There are other commands like `/dispatch`, it opens the terminal where you can see the alerts and the interactive map, and `/panic` which will send an alert to all the polices in case a police officer needs help.
+
+In case you want to change any of those commands, it's in the config file, you can change them whenever you want.
+
+```lua
+Config.UICommand = 'alertp' 
+
+Config.TerminalCommand = 'dispatch' 
+
+Config.PanicCommand = 'panic'
 ```
 
