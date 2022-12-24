@@ -26,6 +26,8 @@ Config.AllowedJobs = {
 }
 ```
 
+Also, to add a job logo, go to `ui/images/logos` and add the logo with the name of the job 
+
 *Alert Commands*
 
 By default, the resource uses the alert UI, but if you want to use commands instead, go to `configs/config.lua` and set `Config.useCommands` as true, if you want to add more commands just do the next steps:
