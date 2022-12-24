@@ -10,3 +10,9 @@ Dispatch System made by Codesk for ESX and QB
 
 Thats all you need for the installation.
 
+# Usage
+
+Here we will expain the main usage of the resource.
+
+*Jobs*
+
