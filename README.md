@@ -16,3 +16,13 @@ Here we will expain the main usage of the resource.
 
 *Jobs*
 
+To add more jobs, go to configs/config.lua and you can add as much jobs as you want
+
+```lua
+Config.AllowedJobs = {
+    {job = 'police', label = 'LSPD'},
+    {job = 'ambulance', label = 'LSFD'},
+    {job = 'mechanic', label = 'LSC'},
+}
+```
+
