@@ -37,5 +37,6 @@ Config.Commands = {
         deftitle = '911 Alert', -- the title that the alert will have
         sound = true -- do you want sound when getting the alert?
     },
-}```
+}
+```
 
