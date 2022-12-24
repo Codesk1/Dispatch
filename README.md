@@ -53,3 +53,16 @@ Config.TerminalCommand = 'dispatch'
 Config.PanicCommand = 'panic'
 ```
 
+*How to send alerts from other scripts?*
+
+If you want to link our dispatch with your robberys or any other resource, here's the trigger you might be looking for
+
+```lua
+    TriggerServerEvent('codesk_dispatch:send', target, text, coords, title, sound)
+    --target: the job you want to alert
+    --text: the text that the alert will have
+    --coords: the coords of the alerts [You can use GetEntityCoords(PlayerPedId())]
+    --title: the title of the alert
+    --sound: true or false
+```
+
